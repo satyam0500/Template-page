@@ -1,0 +1,17 @@
+
+
+/* flex is a container property hence the class is put in footer and not in paragraph */
+.flex-all-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding:5px 10px;
+    color:white;
+    background:var(--main-bg-color);
+    border:2px solid rgb(63, 37, 122);
+    border-radius: 7px;
+    cursor: pointer;
+}

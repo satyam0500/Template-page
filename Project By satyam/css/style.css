@@ -1,0 +1,83 @@
+/* importing for fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blue;
+    border:2px solid red;
+    font-family: 'Cabin', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    width:88px;
+    padding: 0 23px;
+}
+nav ul{
+    height: 60px;
+    display: flex; /* to get the ul items horizontally */
+    justify-content: flex-start; /* little bit spacing x-axis */
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none; /*to remove the dotted points */
+    padding: 0 23px; /* give spaces between items */
+}
+
+nav ul li a{
+     color:white; /* to remove the default blue color */
+     text-decoration: none; /*to remove the underline */
+}
+nav ul li a:hover{
+    color:yellow; 
+    font-weight: bold; 
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{  /*For search bar */
+ width:493px;
+ height:23px;
+ margin:0 16px 0 55px;  /*top left right bottom*/
+ border:2px solid black;
+ padding:0 20px;
+}
+
+.search button{
+    font-family: 'Cabin', sans-serif;
+}
+
+
+.container{
+     min-height: calc(100vh - 60px - 12vh); /*100-header height- footer height */
+}
+
+.slider{
+    
+    width:80vw;
+    margin:12px auto;
+}
+
+footer{
+    height:12vh;
+    background-color: black;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+}
+
+
